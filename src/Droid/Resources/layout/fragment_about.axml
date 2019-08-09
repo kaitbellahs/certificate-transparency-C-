@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent" android:fillViewport="true">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+        
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1" android:paddingBottom="66dp">
+            <TextView android:id="@+id/textView1" android:text="Esperando..." android:paddingTop="@dimen/small_margin" android:paddingLeft="@dimen/small_margin" android:paddingRight="@dimen/small_margin" style="?android:textAppearanceLarge" android:layout_width="match_parent" android:layout_height="wrap_content" />
+            <Space android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1" />
+            <EditText android:id="@+id/editText1" android:text="https://www.amil.com.br" android:paddingTop="@dimen/small_margin" android:paddingLeft="@dimen/small_margin" android:paddingRight="@dimen/small_margin" style="?android:textAppearanceLarge" android:layout_width="match_parent" android:layout_height="wrap_content" />
+            <Space android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1" />
+            <Button android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/learn_more" android:id="@+id/button_learn_more" android:backgroundTint="@color/primary" android:theme="@style/button_primary" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

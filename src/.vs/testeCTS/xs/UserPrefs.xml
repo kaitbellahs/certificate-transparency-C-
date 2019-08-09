@@ -1,0 +1,63 @@
+﻿<Properties StartupConfiguration="{7513831F-FCC9-4B85-94CD-194CB64A4802}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="CT/Additions/ASN1Primitive.cs">
+    <Files>
+      <File FileName="Droid/teste.cs" Line="103" Column="30" />
+      <File FileName="CT/Additions/LogSignatureVerifier.cs" Line="22" Column="38" />
+      <File FileName="Droid/Resources/layout/fragment_about.axml" Line="6" Column="49" />
+      <File FileName="Droid/Activities/MainActivity.cs" Line="77" Column="60" />
+      <File FileName="Droid/Resources/values/arrays.xml" Line="4" Column="34" />
+      <File FileName="Droid/Resources/values/Strings.xml" Line="5" Column="42" />
+      <File FileName="Droid/Fragments/AboutFragment.cs" Line="65" Column="58" />
+      <File FileName="CT/Additions/ct2.cs" Line="1" Column="1" />
+      <File FileName="CT/Additions/ASN1Primitive.cs" Line="9" Column="29" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="testeCTS" expanded="True">
+            <Node name="CT" expanded="True">
+              <Node name="Additions" expanded="True">
+                <Node name="ASN1Primitive.cs" selected="True" />
+              </Node>
+            </Node>
+            <Node name="testeCTS.Droid" expanded="True">
+              <Node name="Activities" expanded="True" />
+              <Node name="Fragments" expanded="True" />
+              <Node name="Resources" expanded="True">
+                <Node name="layout" expanded="True" />
+                <Node name="values" expanded="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.testeCTS.Droid AndroidDesignerPreferredTheme="MasterDetailTheme" AndroidDesignerPreferredDevice="Nexus 4" PreferredExecutionTarget="Android.my_device" />
+  <MonoDevelop.Ide.ItemProperties.testeCTS FirstBuild="True" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches>
+    <Watch file="../../../Droid/teste.cs" line="367" offsetX="-1" offsetY="-1" expression="i" liveUpdate="False" />
+    <Watch file="../../../Droid/teste.cs" line="367" offsetX="-1" offsetY="-1" expression="i" liveUpdate="False" />
+    <Watch file="../../../Droid/teste.cs" line="268" offsetX="-1" offsetY="-1" expression="inputStream" liveUpdate="False" />
+  </MonoDevelop.Ide.DebuggingService.PinnedWatches>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/khalidaitbellahs/Projects/testeCTS/CT/Additions/LogSignatureVerifier.cs" relfile="CT/Additions/LogSignatureVerifier.cs" line="131" column="1" />
+      <Breakpoint file="/Users/khalidaitbellahs/Projects/testeCTS/CT/Additions/LogSignatureVerifier.cs" relfile="CT/Additions/LogSignatureVerifier.cs" line="205" column="1" />
+      <Breakpoint file="/Users/khalidaitbellahs/Projects/testeCTS/CT/Additions/LogSignatureVerifier.cs" relfile="CT/Additions/LogSignatureVerifier.cs" line="255" column="1" />
+      <Breakpoint file="/Users/khalidaitbellahs/Projects/testeCTS/CT/Additions/LogSignatureVerifier.cs" relfile="CT/Additions/LogSignatureVerifier.cs" line="259" column="1" />
+      <Breakpoint file="/Users/khalidaitbellahs/Projects/testeCTS/CT/Additions/LogSignatureVerifier.cs" relfile="CT/Additions/LogSignatureVerifier.cs" line="266" column="1" />
+      <Breakpoint file="/Users/khalidaitbellahs/Projects/testeCTS/CT/Additions/LogSignatureVerifier.cs" relfile="CT/Additions/LogSignatureVerifier.cs" line="279" column="1" />
+      <Breakpoint file="/Users/khalidaitbellahs/Projects/testeCTS/CT/Additions/LogSignatureVerifier.cs" relfile="CT/Additions/LogSignatureVerifier.cs" line="279" column="1" />
+      <Breakpoint file="/Users/khalidaitbellahs/Projects/testeCTS/CT/Additions/LogSignatureVerifier.cs" relfile="CT/Additions/LogSignatureVerifier.cs" line="100" column="1" />
+      <Breakpoint file="/Users/khalidaitbellahs/Projects/testeCTS/CT/Additions/LogSignatureVerifier.cs" relfile="CT/Additions/LogSignatureVerifier.cs" line="160" column="1" />
+      <Breakpoint file="/Users/khalidaitbellahs/Projects/testeCTS/CT/CT.csproj" relfile="CT/CT.csproj" line="26" column="1" />
+      <Breakpoint file="/Users/khalidaitbellahs/Projects/testeCTS/CT/CT.csproj" relfile="CT/CT.csproj" line="31" column="1" />
+      <Breakpoint file="/Users/khalidaitbellahs/Projects/testeCTS/CT/CT.csproj" relfile="CT/CT.csproj" line="45" column="1" />
+      <Breakpoint file="/Users/khalidaitbellahs/Projects/testeCTS/CT/CT.csproj" relfile="CT/CT.csproj" line="75" column="1" />
+      <Breakpoint file="/Users/khalidaitbellahs/Projects/testeCTS/CT/CT.csproj" relfile="CT/CT.csproj" line="123" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
