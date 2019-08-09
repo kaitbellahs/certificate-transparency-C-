@@ -5,3 +5,4 @@ src/Google.Protobuf/obj
 src/Droid/bin
 src/Droid/obj
 src/packages
+src/.vs

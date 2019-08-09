@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<package>
+  <metadata>
+    <id>khalid.certificate.transparency</id>
+    <version>1.0.0</version>
+    <title>certificate transparency for DotNet</title>
+    <authors>Ti ALto Nivel</authors>
+    <owners>Khalid Ait Bellahs</owners>
+    <licenseUrl>https://github.com/kaitbellahs/certificate-transparency-C-/blob/master/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/kaitbellahs/certificate-transparency-C-</projectUrl>
+    <iconUrl>https://www.certificate-transparency.org/_/rsrc/1472780091172/config/customLogo.gif?revision=2</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Certificate Transparency helps eliminate these flaws by providing an open framework for monitoring and auditing SSL certificates in nearly real time. Specifically, Certificate Transparency makes it possible to detect SSL certificates that have been mistakenly issued by a certificate authority or maliciously acquired from an otherwise unimpeachable certificate authority. It also makes it possible to identify certificate authorities that have gone rogue and are maliciously issuing certificates. </description>
+    <releaseNotes>Initial 1.0.0 release</releaseNotes>
+    <copyright>Copyright 2019 TiAltoNivel.com.br</copyright>
+    <tags>SCTS nuget</tags>
+    <dependencies>
+      <dependency id="Mono.Android" version="0.0.0" />
+      <dependency id="BouncyCastle.Crypto" version="1.8.5.0" />
+      <dependency id="Google.Protobuf" version="3.9.0.0" />
+      <dependency id="System" version="2.0.5.0" />
+      <dependency id="System.Core" version="2.0.5.0" />
+    </dependencies>
+    <summary> A summary of your package </summary>
+  </metadata>
+</package>
