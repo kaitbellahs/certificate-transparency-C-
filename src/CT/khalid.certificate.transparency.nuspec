@@ -4,9 +4,9 @@
     <id>khalid.certificate.transparency</id>
     <version>1.0.0</version>
     <title>certificate transparency for DotNet</title>
-    <authors>Ti ALto Nivel</authors>
+    <authors>Khalid Ait Bellahs</authors>
     <owners>Khalid Ait Bellahs</owners>
-    <licenseUrl>https://github.com/kaitbellahs/certificate-transparency-C-/blob/master/LICENSE</licenseUrl>
+    <license type="expression">Apache-2.0</license>
     <projectUrl>https://github.com/kaitbellahs/certificate-transparency-C-</projectUrl>
     <iconUrl>https://www.certificate-transparency.org/_/rsrc/1472780091172/config/customLogo.gif?revision=2</iconUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
@@ -15,12 +15,25 @@
     <copyright>Copyright 2019 TiAltoNivel.com.br</copyright>
     <tags>SCTS nuget</tags>
     <dependencies>
-      <dependency id="Mono.Android" version="0.0.0" />
-      <dependency id="BouncyCastle.Crypto" version="1.8.5.0" />
-      <dependency id="Google.Protobuf" version="3.9.0.0" />
-      <dependency id="System" version="2.0.5.0" />
-      <dependency id="System.Core" version="2.0.5.0" />
+            
+            <group targetFramework="MonoAndroid">
+                   <dependency id="BouncyCastle" version="1.8.5.0" />
+            </group>
+            <!--<group targetFramework="netstandard1.0">
+                <dependency id="Google.Protobuf" version="3.9.0.0" />
+            </group>-->
     </dependencies>
     <summary> A summary of your package </summary>
   </metadata>
+    <files>
+        <!--Core-->
+        <file src="bin/Release/Google.Protobuf.dll" target="lib\netstandard1.0" />
+        <file src="bin/Release/Google.Protobuf.pdb" target="lib\netstandard1.0" />
+        <file src="bin/Release/Google.Protobuf.xml" target="lib\netstandard1.0" />
+
+        <!--Xamarin.Android-->
+        <file src="bin/Release/CT.dll" target="lib\MonoAndroid10" />
+        <file src="bin/Release/CT.pdb" target="lib\MonoAndroid10" />
+        
+    </files>
 </package>

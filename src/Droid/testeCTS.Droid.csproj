@@ -8,7 +8,7 @@
     <OutputType>Library</OutputType>
     <RootNamespace>testeCTS.Droid</RootNamespace>
     <AssemblyName>testeCTS.Droid</AssemblyName>
-    <TargetFrameworkVersion>v8.1</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v9.0</TargetFrameworkVersion>
     <AndroidApplication>True</AndroidApplication>
     <AndroidResgenFile>Resources\Resource.designer.cs</AndroidResgenFile>
     <AndroidResgenClass>Resource</AndroidResgenClass>
@@ -39,6 +39,7 @@
     <AndroidManagedSymbols>true</AndroidManagedSymbols>
     <AndroidUseSharedRuntime>false</AndroidUseSharedRuntime>
     <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <AndroidDexTool>d8</AndroidDexTool>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -121,7 +122,9 @@
     <Reference Include="BouncyCastle.Crypto">
       <HintPath>..\packages\BouncyCastle.1.8.5\lib\BouncyCastle.Crypto.dll</HintPath>
     </Reference>
-    <Reference Include="Google.Protobuf, Version=3.9.0.0, Culture=neutral, PublicKeyToken=a7d26565bac4d604" />
+    <Reference Include="CT">
+      <HintPath>..\packages\khalid.certificate.transparency.1.0.0\lib\MonoAndroid10\CT.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="MainApplication.cs" />
@@ -172,16 +175,6 @@
       <SubType></SubType>
       <Generator></Generator>
     </AndroidResource>
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\CT\CT.csproj">
-      <Project>{CE368A4C-7865-4108-9457-75952D17C127}</Project>
-      <Name>CT</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\..\..\Dev\protobuf\csharp\src\Google.Protobuf\Google.Protobuf.csproj">
-      <Project>{347EF034-73A8-476D-8291-DFED36649344}</Project>
-      <Name>Google.Protobuf</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="..\testeCTS\testeCTS.projitems" Label="Shared" Condition="Exists('..\testeCTS\testeCTS.projitems')" />
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />

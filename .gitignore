@@ -6,3 +6,6 @@ src/Droid/bin
 src/Droid/obj
 src/packages
 src/.vs
+src/.vs
+src/CT/lib
+src/CT/khalid.certificate.transparency.1.0.0.nupkg
