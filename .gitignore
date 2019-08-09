@@ -1,0 +1,7 @@
+src/CT/bin
+src/CT/obj
+src/Google.Protobuf/bin
+src/Google.Protobuf/obj
+src/Droid/bin
+src/Droid/obj
+src/packages

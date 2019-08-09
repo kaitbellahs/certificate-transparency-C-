@@ -1,31 +1,24 @@
 ﻿<Properties StartupConfiguration="{7513831F-FCC9-4B85-94CD-194CB64A4802}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="CT/Additions/ASN1Primitive.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Droid/Resources/values/Strings.xml">
     <Files>
-      <File FileName="Droid/teste.cs" Line="103" Column="30" />
-      <File FileName="CT/Additions/LogSignatureVerifier.cs" Line="22" Column="38" />
-      <File FileName="Droid/Resources/layout/fragment_about.axml" Line="6" Column="49" />
-      <File FileName="Droid/Activities/MainActivity.cs" Line="77" Column="60" />
-      <File FileName="Droid/Resources/values/arrays.xml" Line="4" Column="34" />
-      <File FileName="Droid/Resources/values/Strings.xml" Line="5" Column="42" />
-      <File FileName="Droid/Fragments/AboutFragment.cs" Line="65" Column="58" />
-      <File FileName="CT/Additions/ct2.cs" Line="1" Column="1" />
-      <File FileName="CT/Additions/ASN1Primitive.cs" Line="9" Column="29" />
+      <File FileName="CT/Additions/ct2.cs" Line="8" Column="15" />
+      <File FileName="CT/Additions/ASN1Primitive.cs" Line="1" Column="10" />
+      <File FileName="CT/Additions/LogSignatureVerifier.cs" Line="9" Column="41" />
+      <File FileName="CT/Additions/CTLog.cs" Line="42" Column="30" />
+      <File FileName="Droid/Helpers/teste.cs" Line="40" Column="15" />
+      <File FileName="Droid/Fragments/SctsFragment.cs" Line="32" Column="72" />
+      <File FileName="Droid/Activities/MainActivity.cs" Line="5" Column="7" />
+      <File FileName="Droid/Resources/values/Strings.xml" Line="6" Column="28" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="testeCTS" expanded="True">
-            <Node name="CT" expanded="True">
-              <Node name="Additions" expanded="True">
-                <Node name="ASN1Primitive.cs" selected="True" />
-              </Node>
-            </Node>
             <Node name="testeCTS.Droid" expanded="True">
-              <Node name="Activities" expanded="True" />
-              <Node name="Fragments" expanded="True" />
               <Node name="Resources" expanded="True">
-                <Node name="layout" expanded="True" />
-                <Node name="values" expanded="True" />
+                <Node name="values" expanded="True">
+                  <Node name="Strings.xml" selected="True" />
+                </Node>
               </Node>
             </Node>
           </Node>
@@ -43,20 +36,20 @@
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore>
-      <Breakpoint file="/Users/khalidaitbellahs/Projects/testeCTS/CT/Additions/LogSignatureVerifier.cs" relfile="CT/Additions/LogSignatureVerifier.cs" line="131" column="1" />
-      <Breakpoint file="/Users/khalidaitbellahs/Projects/testeCTS/CT/Additions/LogSignatureVerifier.cs" relfile="CT/Additions/LogSignatureVerifier.cs" line="205" column="1" />
-      <Breakpoint file="/Users/khalidaitbellahs/Projects/testeCTS/CT/Additions/LogSignatureVerifier.cs" relfile="CT/Additions/LogSignatureVerifier.cs" line="255" column="1" />
-      <Breakpoint file="/Users/khalidaitbellahs/Projects/testeCTS/CT/Additions/LogSignatureVerifier.cs" relfile="CT/Additions/LogSignatureVerifier.cs" line="259" column="1" />
-      <Breakpoint file="/Users/khalidaitbellahs/Projects/testeCTS/CT/Additions/LogSignatureVerifier.cs" relfile="CT/Additions/LogSignatureVerifier.cs" line="266" column="1" />
-      <Breakpoint file="/Users/khalidaitbellahs/Projects/testeCTS/CT/Additions/LogSignatureVerifier.cs" relfile="CT/Additions/LogSignatureVerifier.cs" line="279" column="1" />
-      <Breakpoint file="/Users/khalidaitbellahs/Projects/testeCTS/CT/Additions/LogSignatureVerifier.cs" relfile="CT/Additions/LogSignatureVerifier.cs" line="279" column="1" />
-      <Breakpoint file="/Users/khalidaitbellahs/Projects/testeCTS/CT/Additions/LogSignatureVerifier.cs" relfile="CT/Additions/LogSignatureVerifier.cs" line="100" column="1" />
-      <Breakpoint file="/Users/khalidaitbellahs/Projects/testeCTS/CT/Additions/LogSignatureVerifier.cs" relfile="CT/Additions/LogSignatureVerifier.cs" line="160" column="1" />
-      <Breakpoint file="/Users/khalidaitbellahs/Projects/testeCTS/CT/CT.csproj" relfile="CT/CT.csproj" line="26" column="1" />
-      <Breakpoint file="/Users/khalidaitbellahs/Projects/testeCTS/CT/CT.csproj" relfile="CT/CT.csproj" line="31" column="1" />
-      <Breakpoint file="/Users/khalidaitbellahs/Projects/testeCTS/CT/CT.csproj" relfile="CT/CT.csproj" line="45" column="1" />
-      <Breakpoint file="/Users/khalidaitbellahs/Projects/testeCTS/CT/CT.csproj" relfile="CT/CT.csproj" line="75" column="1" />
-      <Breakpoint file="/Users/khalidaitbellahs/Projects/testeCTS/CT/CT.csproj" relfile="CT/CT.csproj" line="123" column="1" />
+      <Breakpoint file="/Users/khalidaitbellahs/Dev/certificate-transparency-C-/src/CT/Additions/LogSignatureVerifier.cs" relfile="CT/Additions/LogSignatureVerifier.cs" line="123" column="1" />
+      <Breakpoint file="/Users/khalidaitbellahs/Dev/certificate-transparency-C-/src/CT/Additions/LogSignatureVerifier.cs" relfile="CT/Additions/LogSignatureVerifier.cs" line="197" column="1" />
+      <Breakpoint file="/Users/khalidaitbellahs/Dev/certificate-transparency-C-/src/CT/Additions/LogSignatureVerifier.cs" relfile="CT/Additions/LogSignatureVerifier.cs" line="247" column="1" />
+      <Breakpoint file="/Users/khalidaitbellahs/Dev/certificate-transparency-C-/src/CT/Additions/LogSignatureVerifier.cs" relfile="CT/Additions/LogSignatureVerifier.cs" line="251" column="1" />
+      <Breakpoint file="/Users/khalidaitbellahs/Dev/certificate-transparency-C-/src/CT/Additions/LogSignatureVerifier.cs" relfile="CT/Additions/LogSignatureVerifier.cs" line="258" column="1" />
+      <Breakpoint file="/Users/khalidaitbellahs/Dev/certificate-transparency-C-/src/CT/Additions/LogSignatureVerifier.cs" relfile="CT/Additions/LogSignatureVerifier.cs" line="271" column="1" />
+      <Breakpoint file="/Users/khalidaitbellahs/Dev/certificate-transparency-C-/src/CT/Additions/LogSignatureVerifier.cs" relfile="CT/Additions/LogSignatureVerifier.cs" line="271" column="1" />
+      <Breakpoint file="/Users/khalidaitbellahs/Dev/certificate-transparency-C-/src/CT/Additions/LogSignatureVerifier.cs" relfile="CT/Additions/LogSignatureVerifier.cs" line="92" column="1" />
+      <Breakpoint file="/Users/khalidaitbellahs/Dev/certificate-transparency-C-/src/CT/Additions/LogSignatureVerifier.cs" relfile="CT/Additions/LogSignatureVerifier.cs" line="152" column="1" />
+      <Breakpoint file="/Users/khalidaitbellahs/Dev/certificate-transparency-C-/src/CT/CT.csproj" relfile="CT/CT.csproj" line="26" column="1" />
+      <Breakpoint file="/Users/khalidaitbellahs/Dev/certificate-transparency-C-/src/CT/CT.csproj" relfile="CT/CT.csproj" line="31" column="1" />
+      <Breakpoint file="/Users/khalidaitbellahs/Dev/certificate-transparency-C-/src/CT/CT.csproj" relfile="CT/CT.csproj" line="45" column="1" />
+      <Breakpoint file="/Users/khalidaitbellahs/Dev/certificate-transparency-C-/src/CT/CT.csproj" relfile="CT/CT.csproj" line="75" column="1" />
+      <Breakpoint file="/Users/khalidaitbellahs/Dev/certificate-transparency-C-/src/CT/CT.csproj" relfile="CT/CT.csproj" line="123" column="1" />
     </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />

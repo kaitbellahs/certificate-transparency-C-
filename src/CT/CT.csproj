@@ -13,7 +13,7 @@
     <RootNamespace>CT</RootNamespace>
     <AssemblyName>CT</AssemblyName>
     <FileAlignment>512</FileAlignment>
-    <TargetFrameworkVersion>v8.1</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v7.0</TargetFrameworkVersion>
     <AndroidClassParser>class-parse</AndroidClassParser>
     <AndroidCodegenTarget>XAJavaInterop1</AndroidCodegenTarget>
     <RestoreProjectStyle>PackageReference</RestoreProjectStyle>
@@ -39,11 +39,11 @@
     <Reference Include="Mono.Android" />
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="BouncyCastle.Crypto">
+      <HintPath>..\..\..\..\Downloads\BouncyCastle.Crypto.dll</HintPath>
+    </Reference>
     <Reference Include="CT">
       <HintPath>bin\Debug\CT.dll</HintPath>
-    </Reference>
-    <Reference Include="BouncyCastle.Crypto">
-      <HintPath>..\..\..\Downloads\BouncyCastle.Crypto.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
@@ -51,6 +51,7 @@
     <Compile Include="Additions\ct2.cs" />
     <Compile Include="Additions\LogSignatureVerifier.cs" />
     <Compile Include="Additions\ASN1Primitive.cs" />
+    <Compile Include="Additions\CTLog.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Jars\AboutJars.txt" />
@@ -65,8 +66,8 @@
     <EmbeddedJar Include="Jars\ctlog-android-0.1.3-SNAPSHOT.jar" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\..\Dev\protobuf\csharp\src\Google.Protobuf\Google.Protobuf.csproj">
-      <Project>{E6633745-C957-4E64-8C6C-5692D70CF3CD}</Project>
+    <ProjectReference Include="..\Google.Protobuf\Google.Protobuf.csproj">
+      <Project>{347EF034-73A8-476D-8291-DFED36649344}</Project>
       <Name>Google.Protobuf</Name>
     </ProjectReference>
   </ItemGroup>

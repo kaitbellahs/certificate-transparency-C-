@@ -1,21 +1,13 @@
-﻿using Java.IO;
-using Java.Security;
+﻿using System;
 using System.Collections.Generic;
 using System.Diagnostics;
-using System.Linq;
-using System;
-using Java.Security.Cert;
-using Org.Certificatetransparency.Ctlog;
-using Org.BouncyCastle.Asn1.X509;
-using Org.BouncyCastle.Asn1;
-using Org.BouncyCastle.Utilities.Encoders;
-//using LogInfo = CT.Additions.;
-using Org.Certificatetransparency.Ctlog.Serialization;
-using Android.Security;
-using Android.App;
-using Android.Content;
-using Java.Security.Spec;
 using System.IO;
+using Java.Security;
+using Java.Security.Cert;
+using Org.BouncyCastle.Asn1;
+using Org.BouncyCastle.Asn1.X509;
+using Org.Certificatetransparency.Ctlog;
+using Org.Certificatetransparency.Ctlog.Serialization;
 
 namespace CT.Additions
 {

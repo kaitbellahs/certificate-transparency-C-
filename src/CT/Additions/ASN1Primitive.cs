@@ -1,5 +1,4 @@
-﻿using System;
-using Java.IO;
+﻿using Java.IO;
 using Java.Lang;
 
 namespace Org.BouncyCastle.Asn1

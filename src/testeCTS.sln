@@ -7,7 +7,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "testeCTS.Droid", "Droid\tes
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CT", "CT\CT.csproj", "{CE368A4C-7865-4108-9457-75952D17C127}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Google.Protobuf", "..\..\Dev\protobuf\csharp\src\Google.Protobuf\Google.Protobuf.csproj", "{E6633745-C957-4E64-8C6C-5692D70CF3CD}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Google.Protobuf", "Google.Protobuf\Google.Protobuf.csproj", "{347EF034-73A8-476D-8291-DFED36649344}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,9 +23,9 @@ Global
 		{CE368A4C-7865-4108-9457-75952D17C127}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CE368A4C-7865-4108-9457-75952D17C127}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CE368A4C-7865-4108-9457-75952D17C127}.Release|Any CPU.Build.0 = Release|Any CPU
-		{E6633745-C957-4E64-8C6C-5692D70CF3CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{E6633745-C957-4E64-8C6C-5692D70CF3CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{E6633745-C957-4E64-8C6C-5692D70CF3CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{E6633745-C957-4E64-8C6C-5692D70CF3CD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{347EF034-73A8-476D-8291-DFED36649344}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{347EF034-73A8-476D-8291-DFED36649344}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{347EF034-73A8-476D-8291-DFED36649344}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{347EF034-73A8-476D-8291-DFED36649344}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
