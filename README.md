@@ -1,4 +1,3 @@
-# certificate transparency-C#
 # Certificate Transparency para C# e Xamarin para Android
 
 This repository contains a modified version of https://github.com/anonyome/certificate-transparency-android and https://github.com/kerryjiang/BouncyCastle.Crypto.
